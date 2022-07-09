@@ -1,0 +1,18 @@
+{
+  "name": "css-advance-projct",
+  "version": "1.0.0",
+  "description": "landing on page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "rohit",
+  "license": "ISC",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "live-server": "^1.1.0"
+  }
+}
